@@ -35,13 +35,17 @@
 ##命令解释
 第一次运行程序，请使用-h参数 查看程序说明，输入-l命令查看配置详细信息。随后可使用其它参数配置相应的用户名、密码、网卡等。
 
-rjsupplicant - usage
+rjsupplicant - usage  
+
 	-a --auth	authenticate mode (with parameter[0/1], 0 means "wireless", 1 means "wired".
-                         default take last authmode or "wired" without this option)
+                         default take last authmode or "wired" without this option)  
+			 
 	-d --dhcp	dhcp(with parameter[0/1], 0 means using system interface config, 1 means get
-                         ip by dhcp server; take last config without this option)
+                         ip by dhcp server; take last config without this option)  
+			 
 	-n --nic	nic (with parameter[eg. eth0, detail for "-l"], default take last nic or fir
-                        st nic without this option)
+                        st nic without this option)  
+			
 	-s --service	service (with parameter["servicename", detail for "-l"], default take last s
                         ervice name or first service name without this option)
 	-I --ssid	wireless ssid (with parameter["ssid", detail for "-l"], only for wirless aut
