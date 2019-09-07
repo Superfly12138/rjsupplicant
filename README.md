@@ -1,7 +1,7 @@
 # rjsupplicant
 锐捷客户端for linux,可在ubuntu等系统下运行。版本1.3.1,本人已在沈阳航空航天大学测试过，系统Ubuntu16.04,测试日期2019.09。07。
 
-##程序说明
+## 程序说明
 
 解压后，使用终端进入当前根目录，运行rjsupplicant.sh脚本即可启动RG-SU。
 	如果rjsupplicant.sh 脚本无法运行（非可执行文件），请运行以下命令: "sudo chmod +x ./rjsupplicant.sh"
@@ -51,7 +51,7 @@
 			|-librt-2.6.so
 			
       
-##命令解释
+## 命令解释
 第一次运行程序，请使用-h参数 查看程序说明，输入-l命令查看配置详细信息。随后可使用其它参数配置相应的用户名、密码、网卡等。
 
 rjsupplicant - usage  
