@@ -14,23 +14,41 @@
 	
 目录结构：
 	|-rjsupplicant.sh
+	
 	|-x86
+	
 		|-rjsuppliant
+		
 		|-updateprodect
+		
 		|-lib
+		
 			|-libcrypto.so.6
+			
 			|-libpcap.so
+			
 			|-libssl.so.6
+			
 			|-librt-2.6.so
+			
 			|-librt-2.10.2.so
+			
 	|-x64
+	
 		|-rjsuppliant
+		
 		|-updateprodect
+		
 		|-lib
+		
 			|-libcrypto.so.6
+			
 			|-libpcap.so
+			
 			|-libssl.so.6
+			
 			|-librt-2.6.so
+			
       
 ##命令解释
 第一次运行程序，请使用-h参数 查看程序说明，输入-l命令查看配置详细信息。随后可使用其它参数配置相应的用户名、密码、网卡等。
@@ -48,19 +66,27 @@ rjsupplicant - usage
 			
 	-s --service	service (with parameter["servicename", detail for "-l"], default take last s
                         ervice name or first service name without this option)
+			
 	-I --ssid	wireless ssid (with parameter["ssid", detail for "-l"], only for wirless aut
                         h mode. default take last ssid or first ssid without this option)
+			
 	-w --wlan	scan wireless network: without parameter, take "-n" option to show wireless 
                         ssid by the specific nic
+			
 	-u --user	user name (with parameter[detail for "-l"], default take last user name with
                         out this option)
+			
 	-p --password	password (with parameter, it can be seted after running if without password,
                          default is null unless save password before)
+			 
 	-S --save	save password (with parameter[0/1], 0 means not save, 1 means save, default 
                         take last config without this option)
+			
 	-q --quit	quit program(without parameter,take this option(-q) to quit the program)
+	
 	-l --list	list information: without parameter, only show config with this option, sush
                          as version, authmode, nic, service[option], user, service list[opt], nic li
                         st. this command default to list current authentication information）
+			
 	   --comments	run as daemon,run log in "/home/superfly/Desktop/rjsupplicant/x64/log/run.lo
                         g".
